@@ -1,0 +1,3 @@
+6.33 - in gitignore file remove / from modules since we want all node modules present in root or in front end or anywhere else.
+
+     - also mention .env since we will be needing these files
