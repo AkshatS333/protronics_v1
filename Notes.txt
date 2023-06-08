@@ -1,3 +1,14 @@
 6.33 - in gitignore file remove / from modules since we want all node modules present in root or in front end or anywhere else.
 
      - also mention .env since we will be needing these files
+
+
+6.37 - we should initialize a git repository in the root
+
+6.52 - run git init that will initialize git repository
+        go in github and create new repository
+        git add .
+        git commit -m "initial commit"
+
+        and then 3 commands of from newly created gitub repository is copied and pasted
+        
