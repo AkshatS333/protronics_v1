@@ -1,0 +1,48 @@
+- in this module we will implement react-router-dom
+    in frontend folder run npm i react-router-dom
+
+
+- we will put our routes in index.js file
+
+- imported many functions from react-router-dom in index.js
+
+- in root.render use ReactRouter and pass it router as parameter
+
+- also improt HomeScreen in index.js
+
+
+- In React Router, the Outlet component is used to define the location where the child routes 
+    will be rendered within a parent route. It acts as a placeholder or insertion point for rendering 
+    nested routes.
+     When you have a nested route structure, with child routes nested within parent routes, 
+   the Outlet component is used within the parent component to specify where the child routes should be rendered.
+
+   this is provides valid reasoning since in index.js, router code we have nested route
+   structure. there App is the parent route and HomeScreen as the default nested route
+
+- import Outlet from react-router in app.js and place it within the containers
+
+- till this point whenever we click any link it is loading, because we have
+   used <a> tag. but we dont want to load it like a regular page
+
+   for this we are importing Link from react router in Product.js in components folder
+
+   changing all <a> to  <Link> and all href to to in Product.js 
+
+
+- we want to do that same with the NAV or in the header
+    there we cannot simply put Link to a and href to to as we are using Navbar
+    and also using Navbar.brand
+
+    for this functionality we will be using separate package called as React Router Bootstrap
+
+    to use it npm i react-router-bootstrap in frontend folder
+    this particular bootstrap function will enable us to have client side links within NAV links
+
+
+    so final import LinkContainer from react-router-bootstrap
+
+    wherever there is href we have to cover that portion using LinkContainer and use to with it
+
+
+- 

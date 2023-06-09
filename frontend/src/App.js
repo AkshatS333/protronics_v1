@@ -12,8 +12,7 @@ const App = () =>{
     <Header />
     <main className='py-3'>
       <Container>
-    <HomeScreen/>
-
+     <Outlet/>
       </Container>
     </main>
     <Footer />
