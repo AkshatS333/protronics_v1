@@ -1,6 +1,7 @@
 import { Container } from 'react-bootstrap';
 import Header from './components/header';
 import Footer from './components/footer';
+import HomeScreen from './screens/HomeScreen';
 
 
 
@@ -11,7 +12,7 @@ const App = () =>{
     <Header />
     <main className='py-3'>
       <Container>
-    <h1>Welcome to protronics</h1>
+    <HomeScreen/>
 
       </Container>
     </main>

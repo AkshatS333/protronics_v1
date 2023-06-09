@@ -1,0 +1,19 @@
+- in this tutor wants to have products listed on the page
+
+- bring the images folder into public folder
+
+- copied product.js from the older version of github commit in frontend-> src -> product.js
+
+- basically and page or screen will have a component for that
+    created folder named as screens in src
+
+- wrote code in HomeScreen.js
+
+- import HomeScreen in App.js
+
+- to want a product component we create product.js in component folder
+    coded in product.js
+
+
+- in HomeScreen.js we will import the product component
+    and write some code to implement it
