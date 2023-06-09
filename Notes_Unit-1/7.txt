@@ -1,0 +1,14 @@
+- go to final repository of tutor and get to frontend-> source -> assets
+    get assests and put in src of local machine
+
+- delete index.css (it is not needed)
+
+- comment out old bootstrap import from the index.js
+
+- update the import in index.js
+import './assets/styles/bootstrap.custom.css';
+import './assets/styles/index.css';
+
+
+- Add logo in header.js
+    add code to show logo in navbar.brand
