@@ -1,0 +1,49 @@
+- in this module we will create component of rating
+
+- create rating.js in component folder
+
+- the rating function in Rating.js will have two parameters as input
+    the value( that will indicate the stars) and text (that is some text
+    like 2 reviews or 3 reviews )
+
+
+
+- for showing star we have specific components
+    we use { value >=1 } as if condition
+    if value >=1 then full star 
+    else if value >= 0.5 then half star
+    else empty star
+
+    Similarly for 2nd, 3rd, 4th and 5th star. accordingly values in conditions are changing
+
+
+    in last span is used to display text
+    in that too if text == NULL, it wont be displayed
+    and if it exists then text will be displayed
+
+
+
+- import rating in Product.js
+    implement Rating above product.price
+    also we can correlate with input parameters at Rating.js here that Rating function taking value and text
+    as the input parameter
+
+
+- here one issue is coming if the name of one product is coming in 
+    one line and for other product it is coming in 2 lines then the sizes 
+    of card are varying
+
+    for it we have a css class that employs two properties:
+
+        white space: nowrap 
+        means if there is extra text it will not wrap on second line either
+        it will hide in boundaries of the container or a scroll bar can component
+
+        text-overflow : ellipsis this property allows to have (...) dots if the 
+        text overflows and do not go to second line. 
+        if the user hovers all the content is visible
+
+
+    so we just have to apply css class in Product component and add
+    this class there
+
