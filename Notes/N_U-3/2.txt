@@ -1,0 +1,44 @@
+- npm init in root folder
+    entry point : server.js
+    license: MIT
+
+- to follow es module syntax like 
+    import something rather than require something
+
+    to do this mention in package.json 
+    "type": "module"
+
+
+- entry point will be a folder called backend in root directory
+    create server.js in backend folder
+
+
+- also one change in package.json
+    "test": "node backend/server.js"
+
+
+
+- npm i express in root directory
+
+
+- wrote code in server.js
+
+- copy the product.js in src and copy it to data folder in backend folder
+
+
+- import products in server.js
+    since we are using es module we need to put .js at the end of file while importing
+    import products from './data/products.js';
+
+
+
+
+- we will do get request in server.js for /api/products
+    here we are serving all the products
+
+
+
+- for creating a route for single project 
+    '/api/products/:id'
+    that function loops through all the products and compares the _id (which is inherent characteristic)
+    with the req.params.id(which we received through the link)
