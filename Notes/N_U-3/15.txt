@@ -1,0 +1,16 @@
+- in root directory install a package .env
+    npm i -D dotenv
+    this will allow us to have file with .env and will allow us to define our environment variables there
+
+
+
+- in our root directory we will create a file as .env
+    NODE_ENV=development
+    PORT=5000
+
+    setting up NODE_ENV and PORT
+
+
+- also importing dotenv from dotenv 
+    and also process.env.PORT || 5000
+
