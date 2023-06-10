@@ -1,0 +1,41 @@
+- now we will create product detail screen
+
+- in screens folder we will create a ProductScreen.js
+
+- import useParams from react-router-dom
+
+- import products from products
+
+- then wrote some code in ProductScreen.js file for implementing ProductScreen function
+
+- in index.js we imported ProductScreen
+    also in route we called and implemented ProductScreen
+
+
+- imported Link in ProductScreen.js 
+
+- other bootstrap things are imported in ProductScreen.js
+
+- imported rating in ProductScreen.js
+
+- created a Go Back button with the help of link
+
+
+
+- in total we have 12 columns on a page
+    so in ProductScreen.js we have divided page in 5,4,3 cols
+
+
+- designed whole ProductScreen page using bootstrap 
+
+
+
+
+
+the ListGroup component in Bootstrap provides a convenient and flexible way to create visually appealing and interactive lists 
+in your application. It saves development time by providing pre-styled components, and it ensures a consistent and responsive design
+ across different devices.
+
+In Bootstrap's ListGroup component, the variant prop with the value 'flush' is used to remove the default borders and 
+rounded corners from the ListGroupItem components within the ListGroup. It creates a "flush" appearance where the list items
+ blend seamlessly together without any visible borders or spacing between them.
