@@ -1,0 +1,16 @@
+- install nodemon so that server will start automatically if any change occurs
+
+- install concurrently, as our frontend is on port 3000 while backend server on port 5000
+    so we will be needing different terminals to start them
+    using concurrently will allow single command to run both frontend and backend
+
+
+- in root directory 
+    npm i -D nodemon concurrently
+
+
+
+- making some changes in package.json to define scripts to run different things
+    server for running nodemon
+    client for starting frontend port
+    dev for running both
