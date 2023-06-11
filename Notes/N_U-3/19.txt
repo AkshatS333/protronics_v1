@@ -1,0 +1,18 @@
+- now we want to be able to connect to our database through our applictaion
+
+- mongoose is an object data mapper
+
+- install mongoose in root  
+    npm i mongoose
+
+
+
+- create a config folder in backend to connect to database
+    coded for creating connection with backend in db.js
+
+
+
+- import connectDB in server.js and also call it that file
+
+
+- to test it run npm run server in root directory
