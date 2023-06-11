@@ -1,0 +1,5 @@
+- downloading mongodb compass
+
+- go back to atlas and connect  --> connect using mongodb compass
+    copy the connection string  and go in compass application 
+    and paste (edit the pwd and protronics in place of test) it in new connection URL and then click connect
