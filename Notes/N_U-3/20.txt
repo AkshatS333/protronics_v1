@@ -1,0 +1,23 @@
+- we will create model for products in this module
+    create models folder and create a productModel.js file there
+
+
+- why models are required
+    By creating a Mongoose schema, you establish the structure and behavior of the documents that
+    will be stored in the corresponding MongoDB collection. This schema can then be used to create
+    a Mongoose model, which provides an interface to interact with the collection using the defined
+    schema rules.
+
+
+- Researched about mongoose.model and moongoose.schema in CG
+
+
+
+- for creating model for user similarly we will create userModel.js
+
+
+- similarly we will create a model for orders ie orderModel.js (copied)
+
+
+- Researched about 
+
