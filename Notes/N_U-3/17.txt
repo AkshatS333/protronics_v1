@@ -1,0 +1,16 @@
+- we will be using mongodb atlas which is a cloud  version .
+    no need to install mongo on local machine
+
+
+- setup mongodb atlas and create database
+    connect -> connect your application->copy the connection string
+
+    MONGO_URI=mongodb+srv://akshat123:<password>@cluster0.hrzidjp.mongodb.net/?retryWrites=true&w=majority
+    add this to .env
+
+    added pwd and updated database name to protronics
+
+    add collection in mongodb site with connection name: protronics and collection as: products
+
+    created example.env for sample for other users if they access github in root directory as .env is not pushed 
+    to github
