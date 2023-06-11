@@ -1,0 +1,35 @@
+- we want to fetch our products from react application till now we are just bringing in the javascript
+
+- in frontend 
+    npm i axios
+
+- fetch('http://localhost:5000/api/products')
+  fetch('/api/products')  rest of it will be taken care by proxy
+  if in development then localhost 5000 and in production the deployed site
+
+
+
+- in package.json 
+     "proxy": "http://localhost:5000",
+     in development mode this proxy will be used
+     so even writing '/api/products' will work in dev mode as it automatically adds proxy in front of it.
+
+
+
+
+- did changes in HomeScreen.js to fetch data from backend
+  useEffect and useState hooks are imported
+
+- also same type of changes must be applied in ProductScreen.js
+
+
+- now the data is coming from the backend, but on backend the data exists in form of file only
+  we want it to comer from server
+  so we can delete products.js from the frontend folder instead we are using products.js that is 
+  present in backend
+
+
+
+- With axios, you can make GET, POST, PUT, DELETE, and other types of requests to your backend server or external APIs
+
+
