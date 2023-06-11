@@ -1,0 +1,25 @@
+- in this module we will use postman 
+
+- create workspace in postman
+    create environment there and add variable: baseURL and initial value: http://localhost:5000/api
+    save it
+    at upper right choose the protronics environment
+
+
+- then create API in postman
+
+
+- if we want to make request it should be in collection
+    we should have 3 collection:
+    product
+    orders 
+    users
+
+
+
+- create new collection as products and add new request in it ie Get all requests
+    in URL enter {{baseURL}}/products
+    and then send
+
+    here the returned products do not have ids because we are still fetching from the file
+    and not the database
