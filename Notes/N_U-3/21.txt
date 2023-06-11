@@ -1,0 +1,31 @@
+- in we will seed some data
+    In the context of building web applications, "seeding the data" refers to the process of initially populating
+    a database or data store with some predefined data. 
+    It is commonly done during the setup or initialization phase of an application.
+
+    like adding some dummy data to the database
+
+
+
+- for seeding the data we will be using data-> products.js, and for that reason whenever we insert data in any database
+    it automatically assingns an id to it.
+    so from products.js we can delete the _id part
+
+
+
+
+- in backend-> data --> users.js. there we will create our dummy users
+
+
+- but when we create users we need to store their passwords. and those passowords should be encypted
+    for encryption we will be using a package called Bcrypt 
+    to install bcrypt : npm i bcryptjs    in root directory
+
+
+
+
+
+- import bcrypt from bcryptjs in users.js
+
+
+- entered dummy users in users.js
