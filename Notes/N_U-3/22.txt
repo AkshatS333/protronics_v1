@@ -1,0 +1,43 @@
+- to have colors in terminal/ console we can install a package  
+     npm i colors in root directory
+
+
+
+- in backend we will create a file seeder.js, this will the script we will
+    run to seed all of our data
+
+
+
+- When you call dotenv.config(), it reads the .env file and sets
+    the environment variables for the current process. This 
+    allows your application to access these values using process.
+    env.VARIABLE_NAME throughout the codebase.
+
+
+
+- process.exit() terminates the process with a default exit code of 0 (successful termination).
+- process.exit(1) terminates the process with an exit code of 1 (indicating a generic or unspecified error).
+
+
+- in seeder.js we wrote code for importData and destroyData 
+    now we need to find a way to run them when the script's run
+
+    we can do this by providing extra command line argument and 
+    having some conditions in code for running different functions.
+
+
+
+- to run seeder with command line and without command line argument 
+    we will create a script in package.json
+
+    npm run data:import for running import
+    npm run data:destroy for running destroy function
+
+
+- for starting mongodb compass
+    go to mongodb atlas in database deployments and there click connect
+    then choose compass option
+    copy string from there and paste in compass (update pwd and protronics).
+    click connect
+
+
