@@ -1,0 +1,13 @@
+- in this module we plan to build a custom error handler
+
+
+- create a file in backend -> middleware -> errorMiddleware.js
+
+
+- there we have written two functions
+
+
+- to use these we have to import and implement them in server.js
+
+- also did some small change in routes-> productRoutes.js 
+    thrown new Error
