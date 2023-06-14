@@ -1,0 +1,7 @@
+- Redux is popular js library for managing application state
+
+- Component state - This state is pertained about that particular component only
+                    rest of application does not care about that
+
+
+- App or global state - This  state is distributed to multiple component
