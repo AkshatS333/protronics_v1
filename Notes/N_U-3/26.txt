@@ -1,0 +1,10 @@
+- here we will create a controller for each route and use that controller function
+
+- in backend create new folder called controllers and in that a file called productController.js
+
+- in productRoutes.js we dont need asyncHandler and Product models
+    but we imported these to productController.js
+
+
+- so basically we cleaned up the code in produtRoutes.js    and put all the logic
+    in productController.js
