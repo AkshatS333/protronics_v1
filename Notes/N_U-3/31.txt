@@ -1,0 +1,20 @@
+- in this two components will be created that are related to UI
+
+- in component folder create a file called loader.js
+
+- written code for spinner in loader.js
+
+- going in homescreen.js to implement spinner there
+
+- also for implementing loader for single product we will implement 
+  loader in productScreen.js
+
+
+- for message component we will create Message.js in components folder
+
+- written code for message alert in Message.js
+
+- importing message in HomeScreen.js
+
+
+- also incorporated message in ProductScreen.js in the same way as the HomeScreen.js
