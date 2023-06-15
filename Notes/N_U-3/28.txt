@@ -1,0 +1,24 @@
+- npm i @reduxjs/toolkit react-redux    in root directory
+
+- in frontend-> src create a file called store.js
+
+- import provider from react-redux in index.js
+    also import store
+
+
+- in index.js we impoted provider and store
+
+- redux dev tools extension required 
+    in developer tools we can check whether redux is working or not
+
+
+- to create some constants we have a file in src folder named as constant.js
+
+- we need to create an API Slice 
+    for that we create a folder in frontedn->src slice 
+    and in that we create a called apiSlice.js (this will be like parent to our other API Slices)
+    wrote some code in apiSlice.js
+
+
+
+- import apiSlice in store.js
