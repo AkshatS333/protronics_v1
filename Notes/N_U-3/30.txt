@@ -1,0 +1,5 @@
+- in productsApiSlice we will be working initially
+
+
+- then we will goto the ProductScreen.js and clean the code there
+
