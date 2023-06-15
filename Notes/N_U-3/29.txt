@@ -1,0 +1,11 @@
+- now we have redux store set up and root api slice
+
+- now we want to create our product api slice and start adding some endpoints
+
+- create a new file in productsApiSlice.js
+
+- went in HomeScreen.js and imported what we created in productsApiSlice.js
+    and also removed some code in HomeScreen.js
+
+
+- corrected BASE_URL in constants.js
