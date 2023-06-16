@@ -1,0 +1,1 @@
+- add the reducer function to add an item to the cart in cartSlice.js file
