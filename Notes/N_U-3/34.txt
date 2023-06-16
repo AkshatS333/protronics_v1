@@ -1,0 +1,7 @@
+- her we will develop a quantity selection feature
+
+- in ProductScreen.js we are working and imported Form from react bootstrap
+
+-  {[...Array(product.countInStock).keys()]} gives us a list of numberes starting from 0 to n as dropdown
+
+- 
