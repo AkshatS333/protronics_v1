@@ -1,0 +1,5 @@
+- here we are going to implement the shopping create
+
+- in slices folder we will create cartSlics.js
+
+- then we import cartSliceReducer in store.js
