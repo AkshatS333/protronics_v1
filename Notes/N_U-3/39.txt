@@ -1,0 +1,6 @@
+- just as we have a product route and product controller we will have a user route and user controller
+
+- in routes we will create userRoutes.js and
+   in controller we will userController.js
+
+- import userRoutes in server.js
