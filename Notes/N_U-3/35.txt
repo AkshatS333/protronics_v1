@@ -9,3 +9,6 @@
 - from cartSlice.js we pick
     different calculations and them in cartUtils.js
     in cartUtils one new function is made for different calculations from cartSlice
+
+
+- at this point we can clear our cart from local storage as we are not having an explicit feature

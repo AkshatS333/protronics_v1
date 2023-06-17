@@ -1,0 +1,5 @@
+- we want to show no of items in the cart in the header
+
+- going in header an importing useSelector using react-redux
+
+- imported badge there from react-bootstrap
