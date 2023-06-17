@@ -1,0 +1,11 @@
+- addDecimals function from cartSlice.js are put in a separate file
+
+- in frontend in src folder we will create a folder called utils
+    in utils create a file called cartUtils.js
+
+- in cartUtils.js implement the same addDecimals function
+
+
+- from cartSlice.js we pick
+    different calculations and them in cartUtils.js
+    in cartUtils one new function is made for different calculations from cartSlice
