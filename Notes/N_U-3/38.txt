@@ -1,0 +1,5 @@
+- in this we will implement the functionality of remove from cartSice
+
+-  working in cartSlice.js
+
+- also worked in cartScreen.js
