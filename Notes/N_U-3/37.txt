@@ -1,0 +1,10 @@
+- here we will be building cart screen
+
+- in screens folder create a file CartScreen.js
+
+- in index.js in frontend to bring our cartScreen
+
+- at this point we have our items in local Storage and redux state 
+    and to get those items we will use useSelector
+
+- mostly we are writing code in CartScreen.js
